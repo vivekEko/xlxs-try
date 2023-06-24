@@ -1,0 +1,61 @@
+.thisbutton{
+    background-color:white;
+    color:rgba(0,171,105);
+}
+.thisbutton:hover{
+    
+    background-color: rgba(0,171,105);
+    color:white;
+}
+.Spreadsheet__header{
+    top:0;
+    position:sticky;
+    opacity: 1;
+    left: 0;
+    background: rgb(243, 243, 243) !important;
+}
+#load{
+    animation: rot 2s linear infinite;
+}
+@keyframes rot {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotat {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(-180deg)
+    }
+}
+@keyframes unrotat {
+    0%{
+        transform: rotate(-180deg)
+    }
+    100%{
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes sho {
+    0%{
+        height:0vh;
+    }
+    100%{
+        height: 35vh;
+    }
+}
+@keyframes unsho {
+    0%{
+        height: 35vh;
+    }
+    100%{
+        height:0vh;
+    }
+    
+}
